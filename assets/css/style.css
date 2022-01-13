@@ -1,8 +1,30 @@
+/* -------------------------------------------- Nav Bar */
+
+nav {
+    background-color: rgb(22, 38, 128);
+}
+
+nav .brand-logo {
+    padding-left: 35px;
+}
+
+
+nav ul a  {
+    padding-right: 35px;
+}
+
+/* -------------------------------------------- How To Play page */
+
 .how-to-play-heading {
-    color: aqua;
+    color: rgb(22, 38, 128);
     text-align: center;
+    padding-top: 30px;
 }
 
 .how-to-play-text {
-    text-align: center;
+    text-align: justify;
+    padding-left: 27%;
+
+
+
 }
