@@ -2,23 +2,67 @@
 
 nav {
     background-color: rgb(22, 38, 128);
+    margin-bottom: 70px
 }
 
 nav .brand-logo {
     padding-left: 35px;
 }
 
+h2.ttt-logo {
+    color: rgb(22, 38, 128);
+    text-align: center;
+}
 
 nav ul a  {
     padding-right: 35px;
 }
+
+
+/* -------------------------------------------- Home */
+
+body {
+    margin:0;
+    padding:0;
+    min-height:100vh;
+}
+
+.board {
+    background-image: url("../images/board2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.welcome {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.intro  {
+    text-align: center;
+}
+
+
+a.play-link {
+    color: rgb(255, 153, 0);
+    margin-left: 43%;
+    margin-bottom: 70px;
+}
+
+a.play-link:hover {
+    color: rgb(189, 93, 29);
+}
+
+
 
 /* -------------------------------------------- How To Play page */
 
 .how-to-play-heading {
     color: rgb(22, 38, 128);
     text-align: center;
-    padding-top: 30px;
 }
 
 .how-to-play-text {
@@ -36,6 +80,8 @@ nav ul a  {
 .page-footer {
     background-color: rgb(22, 38, 128);
     margin-top: 70px;
+    position: sticky;
+    top: 100%;
 }
 
 .designed-by {
@@ -67,6 +113,29 @@ nav ul a  {
 
 
 @media (max-width: 576px) {
+
+    nav .brand-logo {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .welcome {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: xx-large;
+    }
+    
+    .intro  {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: large;
+    }
+
+    a.play-link {
+        padding-right: 0;
+
+    }
+    
     .how-to-play-heading {
         padding-left: 15%;
         padding-right: 15%;
