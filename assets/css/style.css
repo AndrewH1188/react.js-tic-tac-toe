@@ -1,4 +1,4 @@
-/* -------------------------------------------- Nav Bar */
+/* ---------------------------------------------------------------------------- Nav Bar */
 
 nav {
     background-color: rgb(22, 38, 128);
@@ -14,17 +14,17 @@ h2.ttt-logo {
     text-align: center;
 }
 
-nav ul a  {
+nav ul a {
     padding-right: 35px;
 }
 
 
-/* -------------------------------------------- Home */
+/* ---------------------------------------------------------------------------- Home */
 
 body {
-    margin:0;
-    padding:0;
-    min-height:100vh;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 .board {
@@ -41,10 +41,9 @@ body {
     padding-top: 70px;
 }
 
-.intro  {
+.intro {
     text-align: center;
 }
-
 
 a.play-link {
     color: rgb(255, 153, 0);
@@ -57,8 +56,67 @@ a.play-link:hover {
 }
 
 
+/* ---------------------------------------------------------------------------- Play page */
 
-/* -------------------------------------------- How To Play page */
+.errors {
+    background: #c00;
+    color: #fff;
+    display: none;
+    margin: -20px, -20px, -20px;
+    padding: 20px;
+    white-space: pre-wrap;
+}
+
+body {
+    font: 14px "Helvetica", sans-serif;
+    margin: 20px;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+
+
+/* ---------------------------------------------------------------------------- How To Play page */
 
 .how-to-play-heading {
     color: rgb(22, 38, 128);
@@ -71,12 +129,8 @@ a.play-link:hover {
 }
 
 
+/* ---------------------------------------------------------------------------- Footer */
 
-
-
-
-
-/* -------------------------------------------- Footer */
 .page-footer {
     background-color: rgb(22, 38, 128);
     margin-top: 70px;
@@ -90,15 +144,7 @@ a.play-link:hover {
 }
 
 
-
-
-
-
-
-
-
-
-/* -------------------------------------------- Media Queries */
+/* ---------------------------------------------------------------------------- Media Queries */
 
 /*---------------- iPhone and Surface Duo */
 
@@ -124,8 +170,8 @@ a.play-link:hover {
         padding-right: 15%;
         font-size: xx-large;
     }
-    
-    .intro  {
+
+    .intro {
         padding-left: 15%;
         padding-right: 15%;
         font-size: large;
@@ -135,7 +181,7 @@ a.play-link:hover {
         padding-right: 0;
 
     }
-    
+
     .how-to-play-heading {
         padding-left: 15%;
         padding-right: 15%;
