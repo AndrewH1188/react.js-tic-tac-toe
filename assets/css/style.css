@@ -58,7 +58,8 @@ a.play-link:hover {
 
 /* ---------------------------------------------------------------------------- Play page */
 
-.errors {
+
+#errors {
     background: #c00;
     color: #fff;
     display: none;
@@ -66,6 +67,7 @@ a.play-link:hover {
     padding: 20px;
     white-space: pre-wrap;
 }
+
 
 body {
     font: 14px "Helvetica", sans-serif;
