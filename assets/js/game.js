@@ -3,7 +3,7 @@ window.addEventListener('mousedown', function(e) {
   document.body.classList.remove('kbd-navigation');
 });
 window.addEventListener('keydown', function(e) {
-  if (e.keyCode === 9) {
+  if (e.key === 9) {
     document.body.classList.add('kbd-navigation');
     document.body.classList.remove('mouse-navigation');
   }
